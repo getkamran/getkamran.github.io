@@ -289,8 +289,17 @@ img {
 
 /* ===== SKILLS =====*/
 .skills__container {
-  row-gap: 2rem;
+  row-gap: 5rem;
   text-align: center;
+}
+
+.about__img2 {
+  justify-self: right;
+}
+
+.about__img2 img {
+  width: 200px;
+  border-radius: .5rem;
 }
 
 .skills__subtitle {
@@ -517,6 +526,9 @@ img {
     padding-top: 2rem;
   }
   .about__img img {
+    width: 300px;
+  }
+  .about__img2 img {
     width: 300px;
   }
   .skills__container {
